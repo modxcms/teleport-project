@@ -1,0 +1,33 @@
+{
+    "name": "modxcms/teleport-project",
+    "description": "Start your custom teleport project using this bootstrap project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Coward",
+            "email": "jason@opengeek.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/modxcms/teleport"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "modxcms/teleport": "dev-master"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Teleport\\Composer::postInstall"
+        ],
+        "post-update-cmd": [
+            "Teleport\\Composer::postUpdate"
+        ]
+    }
+}

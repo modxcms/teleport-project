@@ -1,0 +1,5 @@
+# ignore various IDE project files
+.idea/
+
+# ignore compiled phars
+*.phar
