@@ -29,5 +29,9 @@
         "post-update-cmd": [
             "Teleport\\Composer::postUpdate"
         ]
+    },
+    "extra": {
+        "teleport-tpl-dir": "tpl",
+        "teleport-tpl-update": false
     }
 }
