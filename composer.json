@@ -32,6 +32,6 @@
     },
     "extra": {
         "teleport-tpl-dir": "tpl",
-        "teleport-tpl-update": false
+        "teleport-tpl-update": true
     }
 }
