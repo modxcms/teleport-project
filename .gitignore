@@ -3,3 +3,6 @@
 
 # ignore compiled phars
 *.phar
+
+# ignore composer.lock
+composer.lock
