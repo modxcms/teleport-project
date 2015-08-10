@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=5.4",
         "modxcms/teleport": "~1.1"
     },
     "require-dev": {
