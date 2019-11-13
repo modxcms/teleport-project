@@ -9,12 +9,13 @@
         }
     ],
     "require": {
-        "php": ">=5.4",
-        "modxcms/teleport": "~1.1"
+        "modxcms/teleport": "~2.0"
     },
     "require-dev": {
         "symfony/process": "~2.1"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "config": {
         "bin-dir": "bin"
     },
